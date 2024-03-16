@@ -1,0 +1,50 @@
+/* Define the style for the buttons */
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.color-button {
+    width: 200px;
+    height: 200px;
+    border:white solid;
+    /* border-radius: 20%; */
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(137, 40, 40);
+}
+
+/* Define the colors for each button */
+#red {
+    background-color: rgb(244, 5, 160);
+}
+
+#green {
+    background-color: rgb(144, 136, 183);
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: rgb(220, 220, 33);
+    color: black;
+}
+
+#reset {
+    background-color: rgb(220, 123, 123);
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 30px;
+}
+@media screen and (max-width: 400px) {
+    /* Apply styles specific to screens with a maximum width of 400px */
+    body {
+        font-size: 14px; /* For example, adjust font size */
+        /* Add any other styles you want to apply at this screen size */
+    }
+
+    /* Add more specific styles for smaller screens as needed */
+}

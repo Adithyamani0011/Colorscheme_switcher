@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color switcher</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <center>
+        <h1>Color Scheme Switcher</h1>
+        <div>
+            <button id="red" class="color-button" onclick="changeColor('green')"></button>
+            <button id="green" class="color-button" onclick="changeColor('yellow')"></button>
+            <button id="blue" class="color-button" onclick="changeColor('red')"></button>
+            <button id="yellow" class="color-button" onclick="changeColor('lavender')"></button>
+        </div>
+        <button id="reset" class="" onclick="changeColor('white')">Default</button>
+
+        <p>Click on any button to change the background color of the page.</p>
+    
+    </center>
+
+    <script>
+        function changeColor(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+
+</body>
+</html>
